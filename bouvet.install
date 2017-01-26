@@ -24,8 +24,9 @@ function bouvet_install() {
   $user_settings->set('register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL)->save(TRUE);
 
   // Enable default permissions for system roles.
-  user_role_grant_permissions(RoleInterface::ANONYMOUS_ID, array('access comments'));
-  user_role_grant_permissions(RoleInterface::AUTHENTICATED_ID, array('access comments', 'post comments', 'skip comment approval'));
+  // For now I don't think we need comment module.
+  // user_role_grant_permissions(RoleInterface::ANONYMOUS_ID, array('access comments'));
+  // user_role_grant_permissions(RoleInterface::AUTHENTICATED_ID, array('access comments', 'post comments', 'skip comment approval'));
 
   // Assign user 1 the "administrator" role.
   $user = User::load(1);

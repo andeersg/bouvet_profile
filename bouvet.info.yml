@@ -1,17 +1,15 @@
 name: Bouvet
 type: profile
-description: 'Install with commonly used features pre-configured.'
+description: 'Install with commonly used features and must-have contrib modules pre-configured.'
 version: 1.0
 core: 8.x
 dependencies:
   - node
-  - history
   - block
   - breakpoint
   - ckeditor
   - color
   - config
-  - comment
   - contextual
   - menu_link_content
   - datetime
@@ -27,19 +25,26 @@ dependencies:
   - dynamic_page_cache
   - taxonomy
   - dblog
-  - search
   - toolbar
   - field_ui
   - file
   - rdf
   - views
   - views_ui
-  - tour
   - automated_cron
   # Contrib modules (requires extra downloading)
+  - admin_toolbar
+  - admin_toolbar_tools
+  - coffee
+  - devel
+  - file_entity
+  - google_analytics
+  - kint
   - metatag
-  - webform
   - pathauto
+  - redirect
+  - token
+  - webform
 themes:
   - bartik
   - seven
