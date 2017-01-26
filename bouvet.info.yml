@@ -38,6 +38,8 @@ dependencies:
   - automated_cron
   # Contrib modules (requires extra downloading)
   - metatag
+  - webform
+  - pathauto
 themes:
   - bartik
   - seven
