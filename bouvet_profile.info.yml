@@ -37,6 +37,7 @@ dependencies:
   - admin_toolbar_tools
   - coffee
   - devel
+  - diff
   - file_entity
   - google_analytics
   - kint
@@ -45,6 +46,7 @@ dependencies:
   - redirect
   - token
   - webform
+  - yoast_seo
 themes:
   - bartik
   - seven
