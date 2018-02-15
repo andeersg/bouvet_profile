@@ -45,7 +45,7 @@ dependencies:
   - pathauto
   - redirect
   - token
-  - webform
+  # - webform
   - yoast_seo
 themes:
   - bartik
