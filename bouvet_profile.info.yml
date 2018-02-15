@@ -38,7 +38,7 @@ dependencies:
   - coffee
   - devel
   - diff
-  - file_entity
+  # - file_entity
   - google_analytics
   - kint
   - metatag
