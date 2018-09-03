@@ -38,15 +38,12 @@ dependencies:
   - coffee
   - devel
   - diff
-  # - file_entity
   - google_analytics
   - kint
   - metatag
   - pathauto
   - redirect
   - token
-  # - webform
-  - yoast_seo
 themes:
   - bartik
   - seven
